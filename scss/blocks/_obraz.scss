@@ -1,0 +1,44 @@
+.obraz{
+    &-bg{
+        position: absolute;
+        right: 0;
+        z-index: -1;
+    }
+    &-text{
+        font-size: 78px;
+        font-weight: 900;
+        margin-top: 122px;
+    }
+}
+
+
+@media (max-width: 770px){
+    .obraz-bg{
+        top: 41%;
+    }
+}
+
+
+@media (max-width: 552px){
+    .obraz-text {
+        font-size: 60px;
+    }
+
+    .obraz-bg {
+        top: 37%;
+    }
+
+}
+
+@media (max-width: 420px){
+    .obraz-text {
+        font-size: 45px;
+    }
+
+    .obraz-bg {
+        // top: 28%;
+        left: -18%;
+    }
+}
+
+

@@ -1,0 +1,75 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ma{
+    position: relative;
+    overflow: hidden;
+    height: 950px;
+}
+
+.head{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.container{
+    max-width: 1085px;
+    margin: 0 auto;
+}
+
+.container-wrap{
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.maa{
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+}
+
+.maaa{
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+}
+
+
+@media (max-width: 1015px){
+
+    .maaa{
+        height: 100%;
+
+    }
+}
+
+@media (max-width: 812px){
+    .ma{
+        height: 100%;
+    }
+}
+
+@media (max-width: 770px){
+    .maa{
+        height: 961px;
+
+    }
+}
+
+@media (max-width: 552px){
+    .maa{
+        height: 879px;
+    }
+}
+
+
+
+
+
